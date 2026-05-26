@@ -5,6 +5,31 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+  <style>
+    .video-container {
+      position: relative;
+      width: 600px; /* adjust as needed */
+      max-width: 100%;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      background: rgba(0, 0, 0, 0.5); /* improves readability */
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+  </style>
 	<head>
 		<title>Resume</title>
 		<meta charset="utf-8" />
@@ -51,13 +76,20 @@
 				 
 					<div id="main">
 						<div class="inner">
-							<h1>Courses</h1>
+							<h1>Projects<i style="color: rgb(33, 33, 36); font-size: 28px; font-weight: bold;">(In progress)</i></h1>
 							<dl>
 							<dt><h2><img src="images/RUM.svg" alt="icon" /><a href="https://www.uprm.edu">University of Puerto Rico Mayaguez</a></h2></dt>
-							<dd><h3></h3></dd>
+							<div><h3><a href="https://github.com/VictorBaezM/1st-Semester-2022-CTFs">1st-Semester-2022-CTFs</a></h3></div>
 							<dt><h2><img src="images/GT.svg" alt="icon" /><a href="https://www.gatech.edu/">Georgia Institute of Technology</a></h2></dt>
-							
-
+							<div class="video-container">
+								<video controls>
+								<source src="videos/Beat It! Studios_KatFight_Trailer.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+								</video>
+								<div class="overlay-text">
+								Kat Fight
+								</div>
+							</div>
 						</dl>
 </div>
 					</div>
