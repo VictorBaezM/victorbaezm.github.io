@@ -31,13 +31,12 @@ window.PRODUCTS_DATA = [
     "status": "Live"
   },
   {
-    "id": "spotify-app",
-    "title": "Spotify App",
-    "description": "A custom Spotify integration dashboard that connects with the Spotify Web API. It allows users to explore their top artists, tracks, and genres, visualize audio features of their favorite music, manage playlists, and discover new songs based on their unique listening habits.",
-    "link": "https://github.com/VictorBaezM",
-    "githubRepo": "VictorBaezM/Spotify-App",
-    "isPrivate": true,
-    "tags": ["Web API", "JavaScript", "Spotify API", "Dashboard"],
+    "id": "spotify-recommender",
+    "title": "Spotify Recommender",
+    "description": "This is a personal project that is meant to be used for educational purposes. The repository contains a website that takes a look at your Spotify account and generates a list of some recommendations based on the top artists you have. It creates a grid of most likely matches and allows you to click on them to listen to them inside Spotify itself.",
+    "link": "https://github.com/VictorBaezM/Spotify-Recommender",
+    "githubRepo": "VictorBaezM/Spotify-Recommender",
+    "tags": ["Web API", "JavaScript", "Spotify API", "Recommender"],
     "status": "Completed"
   }
 ];
