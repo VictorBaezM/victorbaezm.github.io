@@ -5,37 +5,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-  <style>
-    .video-container {
-      position: relative;
-      width: 600px; /* adjust as needed */
-      max-width: 100%;
-    }
-
-    video {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .overlay-text {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      color: white;
-      font-size: 24px;
-      font-weight: bold;
-      background: rgba(0, 0, 0, 0.5); /* improves readability */
-      padding: 10px 15px;
-      border-radius: 8px;
-    }
-  </style>
 	<head>
 		<title>Resume</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/Courses.css" />
+		<link rel="stylesheet" href="assets/css/Projects.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -72,28 +48,48 @@
 						</ul>
 					</nav>
 
-				<!-- Main -->
-				 
 					<div id="main">
 						<div class="inner">
 							<h1>Projects<i style="color: rgb(33, 33, 36); font-size: 28px; font-weight: bold;">(In progress)</i></h1>
-							<dl>
-							<div>
-							  <h3><a href="https://github.com/VictorBaezM/1st-Semester-2022-CTFs">1st-Semester-2022-CTFs</a></h3>
-							  <p>A collection of all CTF problems attempted/completed during the course of my studies in the University of Puerto Rico Mayaguez. CTFs or "Capture The Flag" exercises are coding problems that are designed to test whether a participant can find a specific string that is hidden within a medium. This medium could be a bug that the developer needs to exploit, an image that the developer needs to find the source of or even a semi blind decoding of an encryption. There exist almost no limitations as to how these problems are created as long as you can generate a string from it. The best part of these problems is that they are meant to encourage the participant to think outside the box to solve them which is a good mindset to develop.</p>
-							</div>
-							<div class="video-container">
-								<video controls>
-								<source src="videos/Beat It! Studios_KatFight_Trailer.mp4" type="video/mp4">
-								Your browser does not support the video tag.
-								</video>
-								<div class="overlay-text">
-								Kat Fight
+							<div id="projects-grid" class="projects-grid">
+								<!-- Fallback for browsers with JavaScript disabled / SEO indexing -->
+								<div class="project-card">
+									<div class="project-media">
+										<div class="project-media-fallback"><i class="fas fa-shield-alt"></i></div>
+									</div>
+									<div class="project-info">
+										<div class="project-header">
+											<h3 class="project-title"><a href="https://github.com/VictorBaezM/1st-Semester-2022-CTFs" target="_blank" rel="noopener noreferrer">1st-Semester-2022-CTFs</a></h3>
+											<span class="project-status completed">Completed</span>
+										</div>
+										<p class="project-description">A collection of all CTF problems attempted/completed during the course of my studies in the University of Puerto Rico Mayaguez.</p>
+										<div class="project-actions">
+											<a href="https://github.com/VictorBaezM/1st-Semester-2022-CTFs" class="project-btn primary" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Repo</a>
+										</div>
+									</div>
 								</div>
-							  <p>Kat Fight is a game that was created as part of a group assignment for the video game design course from Georgia Tech. The purpose of the assignment was to get a feel of the game design process by working with the animations, logic and feel that would be present in the real world. We were tasked to generate an alpha, beta and then a final product. This video is meant to showcase the final product as well as give an idea of the different components implemented. It was created using the Unity engine along with github for version control.</p>
+								
+								<div class="project-card">
+									<div class="project-media">
+										<video controls>
+											<source src="videos/Beat It! Studios_KatFight_Trailer.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+										<div class="overlay-text">Kat Fight</div>
+									</div>
+									<div class="project-info">
+										<div class="project-header">
+											<h3 class="project-title"><a href="https://github.com/VictorBaezM" target="_blank" rel="noopener noreferrer">Kat Fight</a></h3>
+											<span class="project-status completed">Completed</span>
+										</div>
+										<p class="project-description">Kat Fight is a game that was created as part of a group assignment for the video game design course from Georgia Tech.</p>
+										<div class="project-actions">
+											<a href="https://github.com/VictorBaezM" class="project-btn primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Visit Site</a>
+										</div>
+									</div>
+								</div>
 							</div>
-						</dl>
-</div>
+						</div>
 					</div>
 
 				<!-- Footer -->
@@ -141,6 +137,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="data/projects-data.js"></script>
+			<script src="assets/js/products.js"></script>
 
 	</body>
-</html>
+	</html>
