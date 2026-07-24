@@ -12,10 +12,19 @@ window.PRODUCTS_DATA = [
     "status": "Completed"
   },
   {
+    "id": "capstone",
+    "title": "INSO4151 Capstone",
+    "description": "This repository stores the information of the project that was created as part of the Capstone Project for the year 2023. Its purpose was to serve as a proof of concept for an app that allows for users to set and share alarms for one another to promote medical adherence.",
+    "link": "https://github.com/VictorBaezM/INSO4151-Capstone-Spring2023",
+    "video": "videos/MedCheck_Elevator_Pitch.mp4",
+    "tags": ["Java", "Android Studio", "App Design"],
+    "status": "Completed"
+  },
+  {
     "id": "kat-fight",
     "title": "Kat Fight",
     "description": "Kat Fight is a game that was created as part of a group assignment for the video game design course from Georgia Tech. The purpose of the assignment was to get a feel of the game design process by working with the animations, logic and feel that would be present in the real world. We were tasked to generate an alpha, beta and then a final product. This video is meant to showcase the final product as well as give an idea of the different components implemented. It was created using the Unity engine along with github for version control.",
-    "link": "https://github.com/VictorBaezM",
+    "link": "https://github.com/VictorBaezM/Kat-Fight-Fork",
     "video": "videos/Beat It! Studios_KatFight_Trailer.mp4",
     "tags": ["Unity", "C#", "Game Design"],
     "status": "Completed"
