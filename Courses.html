@@ -5,58 +5,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      padding: 20px;
-    }
-
-    .course-catalog {
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .category {
-      background: white;
-      border-radius: 10px;
-      margin-bottom: 15px;
-      overflow: hidden;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-
-    .category h3 {
-      margin: 0;
-      padding: 15px 20px;
-      background-color: #e9ecef;
-      cursor: pointer;
-      transition: background-color 0.2s ease;
-    }
-
-    .category h3:hover {
-      background-color: #dfe3e6;
-    }
-
-    .courses {
-      display: none;
-      padding: 10px 20px 20px;
-    }
-
-    .courses div {
-      padding: 8px 0;
-      border-bottom: 1px solid #eee;
-    }
-
-    .courses div:last-child {
-      border-bottom: none;
-    }
-  </style>
 	<head>
 		<title>Resume</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/Courses.css" />
+		<link rel="stylesheet" href="assets/css/cards.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -94,180 +49,237 @@
 					</nav>
 
 				<!-- Main -->
-				 
 					<div id="main">
 						<div class="inner">
-							<h1>Courses</h1>
-							<dl>
-							<dt><h2><img src="images/RUM.svg" alt="icon" /><a href="https://www.uprm.edu">University of Puerto Rico Mayaguez</a></h2></dt>
-							<dd><h3></h3></dd>
+							<h1 style="margin-bottom: 40px;">Courses</h1>
 							
+							<div class="university-section">
+								<h2><img src="images/RUM.svg" alt="icon" /><a href="https://www.uprm.edu" target="_blank" rel="noopener noreferrer">University of Puerto Rico Mayaguez</a></h2>
+								<div id="uprm-courses-grid" class="portfolio-grid">
+									<!-- Fallback for browsers with JavaScript disabled / SEO indexing -->
+									<div class="portfolio-card" id="uprm-math">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-calculator"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Mathematics</h3>
+												<span class="portfolio-status completed">7 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">MATE 3171</strong> — Precalculus I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">MATE 3172</strong> — Precalculus II</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">MATE 3031</strong> — Calculus I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">MATE 3032</strong> — Calculus II</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">MATE 3003</strong> — Calculus III</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">MATE 4145</strong> — Linear Algebra & Differential Equations</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">ININ 4010</strong> — Probability & Statistics for Engineers</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
 
-<div class="course-catalog">
+									<div class="portfolio-card" id="uprm-cs">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-laptop-code"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Computer Science & Software Engineering</h3>
+												<span class="portfolio-status completed">19 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CTCO 3011</strong> — Intro to Computer Programming I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 3075</strong> — Fundamentals of Computing</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 4010</strong> — Advanced Programming</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 4020</strong> — Data Structures</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 4025</strong> — Analysis and Design Algorithms</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 4030</strong> — Programming Languages</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 4050</strong> — Operating Systems</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 4060</strong> — Database Systems</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 4070</strong> — Computer Networks</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 4082</strong> — Computer Architecture II</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 5045</strong> — Advanced Formal Languages</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIIC 3081</strong> — Computer Architecture I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INSO 4101</strong> — Intro to Software Engineering</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INSO 4110</strong> — Software Engineering Requirements</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INSO 4117</strong> — Software Reliability Testing</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INSO 4118</strong> — Software Design</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INSO 4151</strong> — Software Engineering Project I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INSO 4998</strong> — Undergraduate Research Software</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INSO 5111</strong> — Intro Human-Comp Interaction</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
 
-    <!-- Mathematics -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">📘 Mathematics</h3>
+									<div class="portfolio-card" id="uprm-engineering">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-cogs"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Engineering</h3>
+												<span class="portfolio-status completed">7 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INGE 3011</strong> — Engineering Graphics I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INGE 3035</strong> — Engineering Mechanics</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INGE 3045</strong> — Material Science for Electrical Engineers</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INME 4045</strong> — General Thermodynamics for Engineers</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INEL 3105</strong> — Electric Systems Analysis I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INEL 4115</strong> — Electric Measurements Lab</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">ININ 4015</strong> — Engineering Economic Analysis</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
 
-      <div class="courses">
-        <div><strong>MATE 3171</strong> — Precalculus I</div>
-        <div><strong>MATE 3172</strong> — Precalculus II</div>
-        <div><strong>MATE 3031</strong> — Calculus I</div>
-        <div><strong>MATE 3032</strong> — Calculus II</div>
-        <div><strong>MATE 3003</strong> — Calculus III</div>
-        <div><strong>MATE 4145</strong> — Linear Algebra & Differential Equations</div>
-        <div><strong>ININ 4010</strong> — Probability & Statistics for Engineers</div>
-      </div>
-    </section>
+									<div class="portfolio-card" id="uprm-physics">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-atom"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Physics & Astronomy</h3>
+												<span class="portfolio-status completed">5 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">FISI 3171</strong> — Physics I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">FISI 3172</strong> — Physics II</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">FISI 3173</strong> — Physics Lab I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">FISI 3174</strong> — Physics Lab II</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">ASTR 4005</strong> — Astronomy I</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
 
-    <!-- Computer Science -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">
-        💻 Computer Science & Software Engineering
-      </h3>
+									<div class="portfolio-card" id="uprm-chemistry">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-flask"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Chemistry & Biology</h3>
+												<span class="portfolio-status completed">5 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CIME 3031</strong> — Intro Bio Sciences I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">QUIM 3132</strong> — General Chemistry II</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">QUIM 3133</strong> — General Chemistry I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">QUIM 3133L</strong> — General Chemistry Lab I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">QUIM 3134</strong> — General Chemistry Lab II</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
 
-      <div class="courses">
-        <div><strong>CTCO 3011</strong> — Intro to Computer Programming I</div>
-        <div><strong>CIIC 3075</strong> — Fundamentals of Computing</div>
-        <div><strong>CIIC 4010</strong> — Advanced Programming</div>
-        <div><strong>CIIC 4020</strong> — Data Structures</div>
-        <div><strong>CIIC 4025</strong> — Analysis and Design Algorithms</div>
-        <div><strong>CIIC 4030</strong> — Programming Languages</div>
-        <div><strong>CIIC 4050</strong> — Operating Systems</div>
-        <div><strong>CIIC 4060</strong> — Database Systems</div>
-        <div><strong>CIIC 4070</strong> — Computer Networks</div>
-        <div><strong>CIIC 4082</strong> — Computer Architecture II</div>
-        <div><strong>CIIC 5045</strong> — Advanced Formal Languages</div>
-        <div><strong>CIIC 3081</strong> — Computer Architecture I</div>
-        <div><strong>INSO 4101</strong> — Intro to Software Engineering</div>
-        <div><strong>INSO 4110</strong> — Software Engineering Requirements</div>
-        <div><strong>INSO 4117</strong> — Software Reliability Testing</div>
-        <div><strong>INSO 4118</strong> — Software Design</div>
-        <div><strong>INSO 4151</strong> — Software Engineering Project I</div>
-        <div><strong>INSO 4998</strong> — Undergraduate Research Software</div>
-        <div><strong>INSO 5111</strong> — Intro Human-Comp Interaction</div>
-      </div>
-    </section>
+									<div class="portfolio-card" id="uprm-languages">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-language"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Languages & Communication</h3>
+												<span class="portfolio-status completed">8 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">ESPA 3101</strong> — Basic Course in Spanish I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">ESPA 3102</strong> — Basic Course in Spanish II</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INGL 3103</strong> — Intermediate English I</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INGL 3104</strong> — Intermediate English II</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INGL 3227</strong> — Phonetics of English</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INGL 3300</strong> — Special Topics English Studies</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">INGL 3307</strong> — Intro Communication in the Workplace</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CHIN 3051</strong> — Chinese I</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
 
-    <!-- Engineering -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">⚙️ Engineering</h3>
+									<div class="portfolio-card" id="uprm-social">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-university"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Social Sciences & Humanities</h3>
+												<span class="portfolio-status completed">4 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">ECON 3021</strong> — Principles of Microeconomics</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CTPO 3011</strong> — Principles of Political Science</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">EDFU 4019</strong> — Philosophy of Education</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">EDUC 3007</strong> — Social Foundations of Education</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
 
-      <div class="courses">
-        <div><strong>INGE 3011</strong> — Engineering Graphics I</div>
-        <div><strong>INGE 3035</strong> — Engineering Mechanics</div>
-        <div><strong>INGE 3045</strong> — Material Science for Electrical Engineers</div>
-        <div><strong>INME 4045</strong> — General Thermodynamics for Engineers</div>
-        <div><strong>INEL 3105</strong> — Electric Systems Analysis I</div>
-        <div><strong>INEL 4115</strong> — Electric Measurements Lab</div>
-        <div><strong>ININ 4015</strong> — Engineering Economic Analysis</div>
-      </div>
-    </section>
-
-    <!-- Physics -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">🔭 Physics & Astronomy</h3>
-
-      <div class="courses">
-        <div><strong>FISI 3171</strong> — Physics I</div>
-        <div><strong>FISI 3172</strong> — Physics II</div>
-        <div><strong>FISI 3173</strong> — Physics Lab I</div>
-        <div><strong>FISI 3174</strong> — Physics Lab II</div>
-        <div><strong>ASTR 4005</strong> — Astronomy I</div>
-      </div>
-    </section>
-
-    <!-- Chemistry -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">🧪 Chemistry & Biology</h3>
-
-      <div class="courses">
-        <div><strong>CIME 3031</strong> — Intro Bio Sciences I</div>
-        <div><strong>QUIM 3132</strong> — General Chemistry II</div>
-        <div><strong>QUIM 3133</strong> — General Chemistry I</div>
-        <div><strong>QUIM 3133L</strong> — General Chemistry Lab I</div>
-        <div><strong>QUIM 3134</strong> — General Chemistry Lab II</div>
-      </div>
-    </section>
-
-    <!-- Languages -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">
-        🌐 Languages & Communication
-      </h3>
-
-      <div class="courses">
-        <div><strong>ESPA 3101</strong> — Basic Course in Spanish I</div>
-        <div><strong>ESPA 3102</strong> — Basic Course in Spanish II</div>
-        <div><strong>INGL 3103</strong> — Intermediate English I</div>
-        <div><strong>INGL 3104</strong> — Intermediate English II</div>
-        <div><strong>INGL 3227</strong> — Phonetics of English</div>
-        <div><strong>INGL 3300</strong> — Special Topics English Studies</div>
-        <div><strong>INGL 3307</strong> — Intro Communication in the Workplace</div>
-        <div><strong>CHIN 3051</strong> — Chinese I</div>
-      </div>
-    </section>
-
-    <!-- Social Sciences -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">
-        🏛️ Social Sciences & Humanities
-      </h3>
-
-      <div class="courses">
-        <div><strong>ECON 3021</strong> — Principles of Microeconomics</div>
-        <div><strong>CTPO 3011</strong> — Principles of Political Science</div>
-        <div><strong>EDFU 4019</strong> — Philosophy of Education</div>
-        <div><strong>EDUC 3007</strong> — Social Foundations of Education</div>
-      </div>
-    </section>
-
-    <!-- Health -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">
-        🏃 Health, Wellness & Physical Education
-      </h3>
-
-      <div class="courses">
-        <div><strong>EDFI 3465</strong> — Personal & Community Health</div>
-        <div><strong>EDFI 3295</strong> — Elementary Tennis</div>
-      </div>
-    </section>
-
-  </div>
-
-  <script>
-    function toggleCategory(header) {
-      const courses = header.nextElementSibling;
-
-      if (courses.style.display === "block") {
-        courses.style.display = "none";
-      } else {
-        courses.style.display = "block";
-      }
-    }
-  </script>
-							<dt><h2><img src="images/GT.svg" alt="icon" /><a href="https://www.gatech.edu/">Georgia Institute of Technology</a></h2></dt>
-							<div class="course-catalog">
-								    <!-- Health -->
-    <section class="category">
-      <h3 onclick="toggleCategory(this)">
-        💻 Computer Science
-      </h3>
-
-      <div class="courses">
-        <div><strong>CS 6457</strong> — Video Game Design</div>
-        <div><strong>CS 6750</strong> — Human Computer Interactions</div>
-      </div>
-    </section>
+									<div class="portfolio-card" id="uprm-health">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-running"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Health, Wellness & Physical Education</h3>
+												<span class="portfolio-status completed">2 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">EDFI 3465</strong> — Personal & Community Health</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">EDFI 3295</strong> — Elementary Tennis</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 
-						</dl>
-</div>
+							<div class="university-section" style="margin-top: 50px;">
+								<h2><img src="images/GT.svg" alt="icon" /><a href="https://www.gatech.edu/" target="_blank" rel="noopener noreferrer">Georgia Institute of Technology</a></h2>
+								<div id="gt-courses-grid" class="portfolio-grid">
+									<div class="portfolio-card" id="gt-cs">
+										<div class="portfolio-media">
+											<div class="portfolio-media-fallback"><i class="fas fa-laptop-code"></i></div>
+										</div>
+										<div class="portfolio-info">
+											<div class="portfolio-header">
+												<h3 class="portfolio-title">Computer Science</h3>
+												<span class="portfolio-status completed">2 Courses</span>
+											</div>
+											<div class="courses-expandable" style="display: none; margin-bottom: 20px; max-height: 300px; overflow-y: auto; padding-top: 10px; border-top: 1px solid #e0e0e0;">
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CS 6457</strong> — Video Game Design</div>
+												<div style="padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; line-height: 1.4; color: #555; text-align: left;"><strong style="color: #333; font-weight: 600;">CS 6750</strong> — Human Computer Interactions</div>
+											</div>
+											<div class="portfolio-actions" style="margin-top: auto; padding-top: 10px;">
+												<a href="javascript:void(0)" class="portfolio-btn primary toggle-courses-btn" style="width: 100%;"><i class="fas fa-eye"></i> Show Courses</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 				<!-- Footer -->
-				<footer id="footer">
+					<footer id="footer">
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
@@ -311,6 +323,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<script src="data/courses-data.js"></script>
+			<script src="assets/js/courses.js"></script>
 
 	</body>
 </html>

@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/Courses.css" />
+		<link rel="stylesheet" href="assets/css/cards.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -51,42 +52,93 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Education</h1>
-							<dl>
-							<dt><h2><img src="images/GT.svg" alt="icon" /><a href="https://www.gatech.edu/">Georgia Institute of Technology</a></h2></dt>
-							<dd><h3><i style="color: rgb(56, 46, 46);">(2026-Present)</i> Online Master's in Computer Science</h3></dd>	
-							<dt><h2><img src="images/RUM.svg" alt="icon" /><a href="https://www.uprm.edu">University of Puerto Rico Mayaguez</a></h2></dt>
-							<dd><h3><i style="color: rgb(56, 46, 46);">(2017-2023)</i> Bachelor's in Science of Software engineering</h3></dd>
-<h1>Experience</h1>
-<dt><h2><img src="images/L3.svg" alt="icon" /><a href="https://www.l3harris.com/">L3Harris Technologies Inc.</a></h2></dt>
-<dd><h3><i style="color: rgb(56, 46, 46);">(2023-2026)</i> Senior Associate Software Engineer</h3></dd>
-<dd>
-<ul style="list-style-type: none;">
-<li>
-	<h4>Focused on debugging and designing new features for three existing systems that made use of Python, C#, JavaScript, and Linux.</h4>
-</li>
+							<div id="education-grid" class="portfolio-grid">
+								<!-- Fallback for browsers with JavaScript disabled / SEO indexing -->
+								<div class="portfolio-card">
+									<div class="portfolio-media logo-media">
+										<img src="images/GT.svg" alt="Georgia Institute of Technology Logo">
+									</div>
+									<div class="portfolio-info">
+										<div class="portfolio-header">
+											<h3 class="portfolio-title"><a href="https://www.gatech.edu/" target="_blank" rel="noopener noreferrer">Georgia Institute of Technology</a></h3>
+											<span class="portfolio-status in-progress">In Progress</span>
+										</div>
+										<h4 style="margin-top: -5px; margin-bottom: 15px; font-size: 0.95rem; color: #555; font-weight: 600;">
+											Online Master's in Computer Science <i style="font-size: 0.85rem; color: #777; font-weight: normal; margin-left: 5px;">(2026 - Present)</i>
+										</h4>
+										<p class="portfolio-description">Pursuing an Online Master of Science in Computer Science (OMSCS), focusing on advanced computing concepts, software architecture, and system design.</p>
+										<div class="portfolio-tags">
+											<span class="portfolio-tag">C#</span>
+										</div>
+										<div class="portfolio-actions">
+											<a href="https://www.gatech.edu/" class="portfolio-btn primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Visit Institution</a>
+										</div>
+									</div>
+								</div>
 
-<li>
-	<h4>Provided assistance to newcomers on program transition by holding meetings and creating documents for an improved onboarding experience.</h4>
-</li>
+								<div class="portfolio-card">
+									<div class="portfolio-media logo-media">
+										<img src="images/RUM.svg" alt="University of Puerto Rico Mayaguez Logo">
+									</div>
+									<div class="portfolio-info">
+										<div class="portfolio-header">
+											<h3 class="portfolio-title"><a href="https://www.uprm.edu" target="_blank" rel="noopener noreferrer">University of Puerto Rico Mayaguez</a></h3>
+											<span class="portfolio-status completed">Completed</span>
+										</div>
+										<h4 style="margin-top: -5px; margin-bottom: 15px; font-size: 0.95rem; color: #555; font-weight: 600;">
+											Bachelor's in Science of Software engineering <i style="font-size: 0.85rem; color: #777; font-weight: normal; margin-left: 5px;">(2017 - 2023)</i>
+										</h4>
+										<p class="portfolio-description">Completed a Bachelor of Science in Software Engineering, building a solid foundation in software architecture, database design, algorithms, and collaborative team projects.</p>
+										<div class="portfolio-tags">
+											<span class="portfolio-tag">Java</span>
+											<span class="portfolio-tag">JavaScript</span>
+											<span class="portfolio-tag">SQL</span>
+											<span class="portfolio-tag">Python</span>
+											<span class="portfolio-tag">Scala</span>
+											<span class="portfolio-tag">Go</span>
+											<span class="portfolio-tag">C++</span>
+											<span class="portfolio-tag">GitHub</span>
+										</div>
+										<div class="portfolio-actions">
+											<a href="https://www.uprm.edu" class="portfolio-btn primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Visit Institution</a>
+										</div>
+									</div>
+								</div>
+							</div>
 
-<li>
-	<h4>Developed approximately twenty tests with a sum total of two hundred individual steps.</h4>
-</li>
-
-<li>
-	<h4>Engineered a workflow that would help validate tests created such that they would have a set degree of reliability.</h4>
-</li>
-
-<li>
-	<h4>Leveraged use of AI to organize code structure, obtain different alternatives to tackle a problem as well as generate documentation that can be used for future reference.</h4>
-</li>
-
-<li>
-	<h4>Facilitated the creation of a CICD pipeline as well as generated the necessary elements to execute scheduled runs on a dedicated VM.</h4>
-</li>
-</ul>
-</dd>						
-</dl>
+							<h1>Experience</h1>
+							<div id="experience-grid" class="portfolio-grid">
+								<!-- Fallback for browsers with JavaScript disabled / SEO indexing -->
+								<div class="portfolio-card">
+									<div class="portfolio-media logo-media">
+										<img src="images/L3.svg" alt="L3Harris Technologies Inc. Logo">
+									</div>
+									<div class="portfolio-info">
+										<div class="portfolio-header">
+											<h3 class="portfolio-title"><a href="https://www.l3harris.com/" target="_blank" rel="noopener noreferrer">L3Harris Technologies Inc.</a></h3>
+											<span class="portfolio-status past">Past</span>
+										</div>
+										<h4 style="margin-top: -5px; margin-bottom: 15px; font-size: 0.95rem; color: #555; font-weight: 600;">
+											Senior Associate Software Engineer <i style="font-size: 0.85rem; color: #777; font-weight: normal; margin-left: 5px;">(2023 - 2026)</i>
+										</h4>
+										<p class="portfolio-description">Experienced Senior Associate Software Engineer focusing on debugging, designing new features, and automated testing across multiple systems using Python, C#, JavaScript, and Linux. Built robust CI/CD pipelines, engineered validation workflows, and improved team onboarding.</p>
+										<div class="portfolio-tags">
+											<span class="portfolio-tag">Python</span>
+											<span class="portfolio-tag">C#</span>
+											<span class="portfolio-tag">JavaScript</span>
+											<span class="portfolio-tag">Linux</span>
+											<span class="portfolio-tag">CI/CD</span>
+											<span class="portfolio-tag">Testing</span>
+											<span class="portfolio-tag">TestComplete</span>
+											<span class="portfolio-tag">Selenium</span>
+											<span class="portfolio-tag">AI</span>
+										</div>
+										<div class="portfolio-actions">
+											<a href="https://www.l3harris.com/" class="portfolio-btn primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Visit Company</a>
+										</div>
+									</div>
+								</div>
+							</div>
 
 </div>
 					</div>
@@ -136,6 +188,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="data/education-experience-data.js"></script>
+			<script src="assets/js/education-experience.js"></script>
 
 	</body>
 </html>
